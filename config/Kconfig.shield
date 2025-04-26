@@ -1,0 +1,2 @@
+config SHIELD_PHIL
+    def_book $(shields_list_contains, phil)
