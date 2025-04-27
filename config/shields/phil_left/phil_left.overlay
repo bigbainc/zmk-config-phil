@@ -1,14 +1,14 @@
 / {
-    keymap {
-        compatible = "zmk,keymap";
-
-        default_layer {
-            bindings = <
-                &kp Q &kp W &kp E &kp R &kp T
-                &kp A &kp S &kp D &kp F &kp G
-                &kp Z &kp X &kp C &kp V &kp B
-                &kp TAB &kp SPACE &kp ENTER
-            >;
-        };
+    zephyr,user {
+        row-gpios = <&gpio0 8 GPIO_ACTIVE_LOW>,
+                    <&gpio0 9 GPIO_ACTIVE_LOW>,
+                    <&gpio0 10 GPIO_ACTIVE_LOW>,
+                    <&gpio0 11 GPIO_ACTIVE_LOW>;
+        col-gpios = <&gpio1 2 GPIO_ACTIVE_LOW>,
+                    <&gpio1 3 GPIO_ACTIVE_LOW>,
+                    <&gpio1 4 GPIO_ACTIVE_LOW>,
+                    <&gpio1 5 GPIO_ACTIVE_LOW>,
+                    <&gpio1 6 GPIO_ACTIVE_LOW>;
+        diode-direction = COL2ROW;
     };
 };
