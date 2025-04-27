@@ -1,5 +1,5 @@
 include:
-  - shield: phil_left
-    board: nice_nano_v2
-  - shield: phil_right
-    board: nice_nano_v2
+  - board: nice_nano_v2
+    shield: phil_left
+  - board: nice_nano_v2
+    shield: phil_right
