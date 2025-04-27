@@ -1,0 +1,6 @@
+if SHIELD_PHIL
+
+config ZMK_KEYBOARD_NAME
+    default "phil"
+
+endif
