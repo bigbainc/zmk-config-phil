@@ -1,2 +1,3 @@
-config SHIELD_PHIL
-    def_book $(shields_list_contains, phil)
+identifier: phil_right
+name: "Phil Right"
+board: nice_nano_v2

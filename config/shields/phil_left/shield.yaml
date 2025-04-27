@@ -1,6 +1,3 @@
-if SHIELD_PHIL
-
-config ZMK_KEYBOARD_NAME
-    default "phil"
-
-endif
+identifier: phil_left
+name: "Phil Left"
+board: nice_nano_v2
