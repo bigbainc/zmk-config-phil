@@ -1,6 +1,6 @@
-if SHIELD_PHILLY
+if SHIELD_PHIL_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "philly"
+    default "phil_right"
     
 endif
