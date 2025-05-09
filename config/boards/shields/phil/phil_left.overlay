@@ -27,10 +27,6 @@
                     <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     };
 
-    &default_transform {
-        col-offset = <3>;
-    };
-
     physical_layout0: physical_layout_0 { 
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
