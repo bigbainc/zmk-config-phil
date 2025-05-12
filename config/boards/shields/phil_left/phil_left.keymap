@@ -4,11 +4,11 @@
 
         default_layer {
             bindings = <
-                &kp KC_1 &kp KC_2 &kp KC_3 &kp KC_4 &kp KC_5 &kp KC_6
-                &kp KC_TAB &kp KC_Q &kp KC_W &kp KC_E &kp KC_R &kp KC_T
-                &kp KC_CAPS &kp KC_A &kp KC_S &kp KC_D &kp KC_F &kp KC_G
-                &kp KC_LSHIFT &kp KC_Z &kp KC_X &kp KC_C &kp KC_V &kp KC_B
-                &kp KC_SPACE &kp KC_RGUI &kp KC_LEFT &kp KC_DOWN &kp KC_ESC
+                &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6
+                &kp TAB &kp Q &kp W &kp E &kp R &kp T
+                &kp CAPS &kp A &kp S &kp D &kp F &kp G
+                &kp LSHIFT &kp Z &kp X &kp C &kp V &kp B
+                &kp SPACE &kp RGUI &kp LEFT &kp DOWN &kp ESC
             >;
         };
     };
