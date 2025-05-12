@@ -1,2 +1,0 @@
-config SHIELD_PHIL_RIGHT
-    def_bool $(shields_list_contains,phil_right)

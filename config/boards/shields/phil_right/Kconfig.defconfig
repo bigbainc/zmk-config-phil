@@ -1,6 +1,0 @@
-if SHIELD_PHIL_RIGHT
-
-config ZMK_KEYBOARD_NAME
-    default "phil_right"
-    
-endif
